@@ -9,3 +9,7 @@ func test(c *fiber.Ctx) error {
 		"Title": "Hello, World!",
 	})
 }
+
+func hello(c int) int {
+	return c
+}
