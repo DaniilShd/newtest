@@ -15,6 +15,8 @@ func main() {
 		Views: engine,
 	})
 
+	handlers.hello(23)
+
 	app.Get("/", handlers.test)
 
 	log.Fatal(app.Listen(":3000"))
